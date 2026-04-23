@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_puneethpk96_harnesscd_example_apps_1776930311253-pr-trigger-input-set
+  identifier: Build_puneethpk96_harnesscd_example_apps_1776930311253prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: creditproject
+  pipeline:
+    identifier: Build_puneethpk96_harnesscd_example_apps_1776930311253
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
